@@ -1,0 +1,388 @@
+/* footer */
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.col.item.social a:hover {
+  background: #fff;
+  color: #000;
+  transition: 0.5s;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.bg-primary {
+  background-color: #f05f40;
+}
+
+@media (max-width: 460px) {
+  #facires {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+
+@media (min-width:768px) {
+  .col-md-8 {
+    -ms-flex: 0 0 66.66667%;
+    /*flex: 0 0 66.66667%;*/
+    /*max-width: 50%;*/
+    justify-content: right;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .abt-right p {
+    width: 50%;
+    padding-right: 0px;
+    padding: 0px;
+    text-align: right;
+  }
+}
+
+header.masthead hr {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+/* forms */
+
+.form-control:focus {
+  color: #495057;
+  background-color: rgba(154,147,147,0.38);
+  border-color: #ff3307;
+  outline: 0;
+  box-shadow: 0 0 10px.2rem rgba(240,95,64,0.7);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #a3a3a3;
+  border-radius: 20px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#login:hover {
+  color: #fff !important;
+}
+
+/* tabs */
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: #ffffff #ffffff #f05f40;
+}
+
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  /*border-bottom: 1px solid #f05f40 !important;*/
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #f05f40 !important;
+  background-color: #ffffff;
+  border-color: #ffffff #ffffff #f05f40;
+}
+
+@media (max-width: 768px) {
+  #login {
+    background: #ffffff !important;
+    border: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #login:hover {
+    color: #fe3e04 !important;
+  }
+}
+
+/* subscribe form */
+
+#semail {
+  border-top-left-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+  outline: none;
+  width: 280px;
+}
+
+#sbutton {
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+  border: none !important;
+}
+
+@media (max-width: 500px) {
+  #semail {
+    width: 230px;
+    padding-left: 5px;
+  }
+}
+
+/* service specialist */
+
+.face {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #ff896f;
+  width: 100%;
+  height: 100%;
+  transition: .5s;
+}
+
+.face img {
+  color: #fff !important;
+  font-size: 4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /*transition: .5s;*/
+  width: 100px;
+}
+
+.card:hover .card-body .face {
+  width: 60px;
+  height: 60px;
+  top: 40px;
+  border-radius: 50%;
+  transition: .6s;
+  background: none;
+}
+
+.card:hover .card-body .face img {
+  filter: none;
+}
+
+.card:hover .card-body .face h3 {
+  display: none;
+  transition: .8s;
+}
+
+.card:hover .card-body p {
+  transition-delay: .4s;
+  opacity: 1;
+  -webkit-transition-delay: .4s;
+  -o-transition-delay: 0.6s;
+  -moz-transition-delay: .4s;
+  -ms-transition-delay: .4s;
+  /*transition: .4s;*/
+}
+
+.card .card-body p {
+  opacity: 0;
+  transition: .4s;
+}
+
+.card-body.text-center {
+  background: #f05f40;
+}
+
+@media (max-width: 400px) {
+  .card {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+#card:hover {
+  background: #f78d77;
+  transition: .4s;
+  box-shadow: 0 0 10px #fff;
+  border-radius: 5px;
+}
+
+/* gallery */
+
+#gallery .container .item img:hover {
+  box-shadow: 0 0 20px #000000;
+}
+
+#gallery .container .item img {
+  border-radius: 5px;
+}
+
+/* alerets */
+
+.beautiful.alert {
+  border-width: 1px;
+  background-image: none;
+  border-color: transparent;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+.alert.alert-warning.beautiful {
+  background-color: rgba(194,140,0,0.45) !important;
+  border-color: #f9e491;
+  color: #74693e;
+}
+/*loading animation*/
+#loader{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background:  #ffd1b3;
+  z-index: 99999;
+  transition: 1s ease;
+}
+.heart-rate {
+  position: fixed;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  max-width: 180px;
+  height: 143px;
+  margin:0px auto;
+  overflow:hidden;
+  z-index: 99999;
+    
+}
+
+.fade-in {
+  position: absolute;
+  width: 100%;
+  height:100%;
+  background-color:  #ffd1b3;
+  top: 0;
+  right: 0;
+  animation: heartRateIn 2.0s linear infinite;
+
+ /* Gia na katalavw ti ginetai des auto
+    border:1px solid red;
+    */
+
+}
+
+.fade-out {
+  position: absolute;
+  width: 120%;
+  height: 100%;
+  top: 0;
+  left: -120%;
+  animation: heartRateOut 2.0s linear infinite;
+ background: #ffd1b3;
+}
+
+@keyframes heartRateIn {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 0%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes heartRateOut {
+  0% {
+    left: -120%;
+  }
+  30% {
+    left: -120%;
+  }
+  100% {
+    left: 0;
+  }
+}
